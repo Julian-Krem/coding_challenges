@@ -15,6 +15,7 @@ public class SelectionSort {
             integerList[i] = Integer.parseInt(stringList[i]);
         }
 
+        System.out.println("Now, your integer list sorted: ");
         System.out.println(selectionSort(Arrays.stream(integerList).boxed().collect(Collectors.toList())));
     }
 
@@ -32,4 +33,5 @@ public class SelectionSort {
 
         return sortedList;
     }
+
 }
